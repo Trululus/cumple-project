@@ -112,7 +112,7 @@ export const BirthdayMemories: React.FC = () => {
                 {/* Memory Number Badge */}
                 <div className="absolute top-5 right-5 z-10 bg-slate-900/80 backdrop-blur-md text-amber-300 text-[10px] font-bold px-2.5 py-0.5 rounded-full border border-amber-500/30 flex items-center gap-1 shadow">
                   <Cake className="w-3 h-3 text-amber-400" />
-                  <span>RECUERDO {formattedNumber}</span>
+                  <span>Memoria {formattedNumber}</span>
                 </div>
 
                 {/* Photo Container */}
@@ -179,7 +179,7 @@ export const BirthdayMemories: React.FC = () => {
                         {mem.tag}
                       </span>
                       <span className="text-slate-400 group-hover:text-amber-600 flex items-center gap-0.5 font-medium transition-colors">
-                        Ver recuerdo →
+                        Ver recuerdo 
                       </span>
                     </div>
                   )}
@@ -213,7 +213,7 @@ export const BirthdayMemories: React.FC = () => {
                       className="w-full h-full object-cover"
                     />
                     <div className="absolute top-3 right-3 bg-slate-900/80 text-amber-300 text-[10px] font-bold px-2.5 py-0.5 rounded-full">
-                      RECUERDO {formattedNumber}
+                      Memoria {formattedNumber}
                     </div>
                   </div>
                   <div className="text-left">
@@ -344,7 +344,7 @@ export const BirthdayMemories: React.FC = () => {
 
               <div className="mt-5 pt-3 border-t border-slate-100 flex items-center justify-between text-xs text-slate-500">
                 <span className="font-bold text-amber-600">
-                  RECUERDO {String(activeMemory.memoryNumber).padStart(2, '0')}
+                  Memoria {String(activeMemory.memoryNumber).padStart(2, '0')}
                 </span>
                 <span className="italic">Toca fuera para cerrar</span>
               </div>

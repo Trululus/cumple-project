@@ -16,14 +16,14 @@ import type { BirthdayConfig } from '../types';
  */
 
 export const birthdayData: BirthdayConfig = {
-  personName: 'Hola mi amor',
+  personName: 'Hola mi amor Niki',
   birthdayDate: 'Hoy es tu día especial ✨',
 
   // ----------------------------------------------------------------------------
   // PANTALLA INICIAL: ACCESO VIP & BIENVENIDA
   // ----------------------------------------------------------------------------
   access: {
-    badge: 'Misión Especial de Cumpleaños 🎂',
+    badge: 'Misión Especial de Cumpleaños Princesa Niki🎂',
     preTitle: 'Nikolle Yulianny Arevalo Peñaranda',
     title: 'Tengo Una Sorpresa Para Ti ✨',
     subtitle: 'Esta experiencia fue creada con mucho amor y cariño para celebrar tu día. Escribe tu clave para comenzar.',
@@ -47,11 +47,11 @@ export const birthdayData: BirthdayConfig = {
   },
 
   // ----------------------------------------------------------------------------
-  // NIVEL 1: ÁLBUM DE RECUERDOS POLAROID 📸
+  // NIVEL 1: ÁLBUM DE MEMORIAS POLAROID 📸
   // ----------------------------------------------------------------------------
   memories: {
     levelNumber: 1,
-    badge: 'Nivel 1 • Recuerdos Inolvidables 📸',
+    badge: 'Nivel 1 • Memorias Inolvidables 📸',
     title: 'Los Mejores Momentos',
     subtitle: 'Cada anécdota y aventura contigo se convierte en uno de mis recuerdos favoritos.',
     items: [
@@ -62,7 +62,7 @@ export const birthdayData: BirthdayConfig = {
         fallbackGradient: 'from-amber-500/30 via-orange-500/20 to-purple-500/30',
         date: '24 de Noviembre 2025',
         location: 'Titanes',
-        title: 'Donde todo empezó ✨',
+        title: 'Acá todo empezó ✨',
         note: 'Aquel día en que nos vimos por primera vez y no te caí tan bien, por creido.',
         tag: 'El Principio',
       },
@@ -85,7 +85,7 @@ export const birthdayData: BirthdayConfig = {
         date: '8 de Agosto 2026',
         location: 'Volando 🚗',
         title: 'Entre sonrisas y aventuras',
-        note: 'Aquel día en que disfrutamos de la feria por primera vez contigo.',
+        note: 'Aquel día en que disfrutamos de la feria por primera vez contigo y mi familia.',
         tag: 'Globito',
       },
       {
@@ -175,24 +175,24 @@ export const birthdayData: BirthdayConfig = {
   // NIVEL 3: GRAN FINAL & CELEBRACIÓN 🎉
   // ----------------------------------------------------------------------------
   celebration: {
-    badge: 'La Gran Revelación 🎁',
+    badge: 'El Gran Mensaje Revelación 🎁',
     preTitle: 'Llegamos al final del recorrido...',
     mainQuestion: '¿Quieres abrir tu sorpresa final de cumpleaños?',
-    subText: 'Completaste la misión, ganaste tu premio y ahora queda lo más importante.',
-    yesButtonText: '¡ABRIR REGALO! 🎁',
+    subText: 'Completaste la misión,planeamos juntos que hacer y ahora queda lo más importante.',
+    yesButtonText: '¡ABRIR LA CAJA! 🎁',
     noButtonText: 'NO',
     evasiveMessages: [
-      '¡Hoy no se aceptan excusas! 😂',
-      '¿Seguro? Mira que hay confeti y regalos... 👀',
+      '¡¿PERO POR QUE NO QUIERES ABRIR LA CAJA?! 😂',
+      '¿Seguro? Mira que hay confeti y plan... 👀',
       'Ese botón NO tiene miedo a celebrar 🎉',
       '¡El botón NO está bloqueado por ser tu día! 😜',
-      '¡Imposible escapar, mereces festejar! ✨',
-      '¡Haz clic en el SÍ que te va a encantar! ❤️',
+      '¡Imposible escapar, merecemos festejar! ✨',
+      '¡Haz clic en el SÍ amorr! ❤️',
     ],
     revealed: {
-      badge: '🎂 ¡MISIÓN DE CUMPLEAÑOS COMPLETADA! 🎂',
+      badge: '🎂 ¡HOY ES TU DÍA NIKOLLE! 🎂',
       title: '¡FELIZ CUMPLEAÑOS! 🎉🥳',
-      subtitle: 'Que este nuevo año de vida sea el más brillante hasta ahora.',
+      subtitle: 'Que este nuevo año de vida sea el más brillante hasta ahora JUNTOS.',
       prizePrefix: 'Tu plan oficial:',
       letterParagraph1:
         'Hoy celebramos tu existencia, tu energía y todo lo bonito que aportas a quienes te rodean. Gracias por compartir conmigo tu compañia tus risas, por estar siempre ahí y por ser esa persona incondicional que ilumina donde estés.',

@@ -78,7 +78,7 @@ const BirthdayContent: React.FC = () => {
 
       {/* Footer */}
       <footer className="relative z-10 px-4 py-3.5 text-center text-[11px] text-slate-500 border-t border-amber-500/10" style={{ paddingBottom: 'max(0.875rem, env(safe-area-inset-bottom))' }}>
-        Hecho con todo el ❤️ para celebrar tu día especial ✨
+        Hecho con todo el Amor para Nikole celebrar tu día especial Loviu ✨
       </footer>
     </div>
   );

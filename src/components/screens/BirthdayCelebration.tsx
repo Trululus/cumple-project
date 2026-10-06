@@ -259,7 +259,7 @@ export const BirthdayCelebration: React.FC = () => {
             <div className="mb-8">
               <div className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3 flex items-center justify-center gap-1.5">
                 <Heart className="w-3.5 h-3.5 text-pink-500 fill-pink-500" />
-                <span>Nuestros Recuerdos Favoritos ✨</span>
+                <span>Nuestros Recuerdos Juntos</span>
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-2xl mx-auto">
                 {memories.items.map((mem) => (

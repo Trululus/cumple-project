@@ -142,7 +142,7 @@ export const WelcomeWithAccessScreen: React.FC = () => {
 
               {/* Hint Info */}
               <div className="mt-5 text-[11px] text-slate-500 font-light">
-                💡 Pista: Escribe tu nombre, apodo o la palabra <span className="text-amber-400 font-semibold">cumple</span>
+                💡 Pista:Escribe tu nombre<span className="text-amber-400 font-semibold">cumple</span>
               </div>
             </motion.div>
           ) : (
@@ -200,7 +200,7 @@ export const WelcomeWithAccessScreen: React.FC = () => {
                     <Gift className="w-4 h-4" />
                   </div>
                   <span className="font-semibold text-white">2. Ruleta</span>
-                  <span className="text-[10px] text-slate-400">Gana un premio</span>
+                  <span className="text-[10px] text-slate-400">Planea un parche</span>
                 </div>
 
                 <div className="p-3 rounded-2xl bg-slate-900/70 border border-pink-500/20 flex flex-col items-center gap-1.5 shadow-inner">

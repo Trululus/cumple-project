@@ -48,8 +48,8 @@ export const BirthdayHeader: React.FC = () => {
             <Cake className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
             <span className="max-w-[calc(100vw-9rem)] truncate tracking-wide sm:max-w-none">
               {currentLevel === 0 && `Para ${unlockedName} ✨`}
-              {currentLevel === 1 && 'Nivel 1: Recuerdos'}
-              {currentLevel === 2 && 'Nivel 2: Ruleta de Premios'}
+              {currentLevel === 1 && 'Nivel 1: Memorias Inolvidables'}
+              {currentLevel === 2 && 'Nivel 2: Ruleta de Planes'}
               {currentLevel === 3 && '¡Sorpresa Final! 🎂'}
             </span>
           </div>
